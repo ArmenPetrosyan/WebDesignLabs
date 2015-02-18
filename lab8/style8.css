@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+#superForm {
+    overflow: hidden;
+    position: relative;
+    border: 1px solid rgba(196, 183, 210, 0.91);
+    width: 40%;
+    margin: 50px auto;
+    border-radius:10px ;
+    padding: 10px;
+    background: #ffbc95;
+}
+
+#superForm>h3{
+    font-size: 20px;
+    margin: 5px;
+    color: white;
+}
+
+#superForm>table {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+#superForm td{
+    padding-bottom:5px ;
+    padding-left: 5px;
+}
+
+#superForm>input[type=submit]{
+    border:solid 1px white;
+    padding: 4px;
+    border-radius: 5px;
+    background: none;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+#superForm>input[type=submit]:hover{
+    box-shadow: inset 1px 1px 4px greenyellow;
+}
+
+#lil {
+    border:none;
+    color: red;
+    background: none;
+}
+
+#lil:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#graph {
+    position: absolute;
+    top:30px;
+    right: 30px;
+    background: #ffffff;
+    border: 1px solid #f8ffff;
+    border-radius: 0 10px 0 0;
+}
+
+#graph:before {
+    content: 'canvas graph';
+    display: block;
+    color: red;
+    position: absolute;
+
+}
+
+#y,#n {
+    width: 70px;
+    height: 70px;
+    margin:10px;
+    background: darkorange;
+    border-radius:50%;
+    border: 1px solid white;
+    color: white;
+    text-shadow: 1px 2px 3px rgba(45, 0, 22, 0.84);
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#n{
+    background: red;
+}
+
+#btnWrap {
+    width: 180px;
+    margin:0 auto;
+
+}
+
+label[for=one]:after {
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    left: 170px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-top: 3px;
+    background: #0aaadf;
+}
+
+label[for=two]:after {
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    left: 170px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-top: 3px;
+    background: #8748aa;
+}
+
+label[for=three]:after {
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    left: 170px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-top: 3px;
+    background: #010101;
+}
+
+label[for=four]:after {
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    left: 170px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-top: 3px;
+    background: #fffb00;
+}
+
+label[for=five]:after {
+    content: '';
+    position: absolute;
+    left: 170px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-top: 3px;
+    background: #ff2c2a;
+}
+
+.waitanim {
+    position: absolute;
+    width: 128px;
+    height: 130px;
+    z-index: 9999;
+    background: url('723.GIF') no-repeat center;
+    top:35px;
+    right: 70px;
+}

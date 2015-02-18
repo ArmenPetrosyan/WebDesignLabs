@@ -1,0 +1,59 @@
+table {
+    border: 1px solid chocolate;
+    border-collapse: collapse;
+}
+
+td {
+    border:1px solid #ff9269;
+    padding: 5px;
+}
+
+.obnul, .obnul td {
+    border: none;
+}
+
+.line{
+    float: left;
+    margin:10px ;
+}
+
+.col {
+    position: relative;
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    min-height:500px ;
+}
+
+.col ul {
+    list-style: none;
+}
+
+#res2{
+    font-size: 2em;
+}
+
+#res1{
+    font-size: 1.3em;
+}
+
+#submit1,#submit2,#submit3 {
+    position: absolute;
+    bottom: 0;
+    right: 39%;
+}
+
+input[type='textarea']{
+    width: 150%;
+    height: 250px;
+}
+
+/*lab7*/
+h2:hover {
+    cursor: pointer;
+    color:red;
+}
+
+#article_submit,#person_submit {
+    margin-left: 100px;
+}
